@@ -14,3 +14,9 @@ spring:
         format_sql: true
 server:
   port: 9000
+  servlet:
+    context-path: /api
+auth:
+  jwt:
+    secret: "asdafsfgagalfkjalkghasdkjlfhajskdfhlaskjdhfa"
+    access-token-validity-seconds: 3600
